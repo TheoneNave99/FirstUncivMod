@@ -1,25 +1,50 @@
 [
 	{
-		"name": "Holodeck",
-		"replaces": "Circus Maximus",
-		"uniqueTo": "Aliens",
-		"cost": 480,
-		"happiness": 12,
-		"culture": 12,
-		"science": 12,
-		"maintenance": 96,
-		"isNationalWonder": true,
-		"requiredBuildingInAllCities": "Colosseum",
-		"requiredTech": "Horseback Riding"
+		"name": "Automaton Workshop",
+		"replaces": "Workshop",
+		"uniqueTo": "Antikythera",
+		"cost": 300,
+		"happiness": 3,
+		"culture": 3,
+		"science": 3,
+		"production": 5,
+		"percentStatBonus": {"production": 10},
+		"maintenance": 0,
+		"requiredTech": "Engineering"
 	},
 	{
-		"name": "Breeders",
-		"replaces": "Aqueduct",
-		"uniqueTo": "Aliens",
-		"cost": 80,
-		"hurryCostModifier": 160,
+		"name": "Antikytheran Mechanism",
+		"replaces": "Monument",
+		"uniqueTo": "Antikythera",
+		"cost": 25,
 		"happiness": 2,
-		"uniques": ["40% of food is carried over after a new citizen is born"],
-		"requiredTech": "Engineering"
+		"culture": 2,
+		"science": 2,
+		"production": 2,
+		"maintenance": 0,
+		"[+1 Production] from [Hill] tiles [in this city]"]
+	},
+	{
+		"name": "Automaton Recycler",
+		"replaces": "Shrine",
+		"uniqueTo": "Antikythera",
+		"cost": 25,
+		"happiness": 1,
+		"production": 1,
+		"faith": 2,
+		"maintenance": 0,
+		"requiredTech": "Pottery"
+	},
+	{
+		"name": "Autonomous Harvester",
+		"replaces": "Granary",
+		"uniqueTo": "Antikythera",
+		"cost": 25,
+		"food": 5,
+		"uniques": ["[+1 Food] from [Deer] tiles [in this city]",
+			"[+1 Food] from [Bananas] tiles [in this city]",
+			"[+1 Food] from [Wheat] tiles [in this city]"],
+		"maintenance": 0,
+		"requiredTech": "Pottery"
 	}
 ]

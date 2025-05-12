@@ -22,7 +22,7 @@
 		"science": 2,
 		"production": 2,
 		"maintenance": 0,
-		"[+1 Production] from [Hill] tiles [in this city]"]
+		"uniques": ["[+1 Production] from [Hill] tiles [in this city]"]
 	},
 	{
 		"name": "Automaton Recycler",

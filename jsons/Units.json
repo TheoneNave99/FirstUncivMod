@@ -1,17 +1,25 @@
 [
 	{
-		"name": "Phasers",
-		"unitType": "Ranged",
-		"uniqueTo": "Aliens",
-		"replaces": "Machine Gun",
-		"movement": 2,
-		"strength": 90,
-		"rangedStrength": 36,
-		"range": 2,
-		"cost": 500,
-		"requiredTech": "Ballistics",
-		"requiredResource": "Uranium",
-		"promotions": ["Logistics","Accuracy I"],
-		"attackSound": "phasers"
+		"name": "Automaton",
+		"unitType": "Sword",
+		"uniqueTo": "Antikythera",
+		"replaces": "Warrior",
+		"movement": 4,
+		"strength": 12,
+		"cost": 40,
+		"uniques": ["Can build [Land] improvements on tiles","Earn [50]% of killed [Military] unit's [Strength] as [Science]"],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Cycling Machine",
+		"unitType": "Scout",
+		"uniqueTo": "Antikythera",
+		"replaces": "Scout",
+		"movement": 6,
+		"strength": 12,
+		"cost": 40,
+		"uniques": ["Can move after attacking","Earn [50]% of killed [Military] unit's [Strength] as [Science]"],
+		"promotions": ["Ignore terrain cost", "Scouting I"],
+		"attackSound": "metalhit"
 	}
 ]
